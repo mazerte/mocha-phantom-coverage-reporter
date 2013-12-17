@@ -28,5 +28,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/mazerte/mocha-phantom-coverage-reporter"
-  }
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "70b8f5f796f74bab5803293390d13bfbacffef41",
+  "license": "BSD"
 }
