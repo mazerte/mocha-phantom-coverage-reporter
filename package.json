@@ -1,0 +1,32 @@
+{
+  "name": "mocha-phantom-coverage-reporter",
+  "description": "PhantomJS LCOV reporter for Mocha",
+  "version": "0.0.1",
+  "author": "Steven Looman <steven.looman@gmail.com>",
+  "keywords": [
+    "mocha",
+    "reporter",
+    "lcov",
+    "coverage",
+    "html",
+    "phantomjs"
+  ],
+  "dependencies": {
+    "mocha": "~1.15.1",
+    "jade": "~0.35.0",
+    "mkdirp": "~0.3.5"
+  },
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mazerte/mocha-phantom-coverage-reporter"
+  }
+}
