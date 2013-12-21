@@ -1,7 +1,7 @@
 {
   "name": "mocha-phantom-coverage-reporter",
   "description": "PhantomJS LCOV reporter for Mocha",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Mathieu Desvé <mathieu.desve@me.com>",
   "keywords": [
     "mocha",
