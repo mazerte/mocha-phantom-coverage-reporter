@@ -27,7 +27,7 @@
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "mocha -R spec --ignore-leaks"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
