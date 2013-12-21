@@ -1,7 +1,7 @@
 {
   "name": "mocha-phantom-coverage-reporter",
   "description": "PhantomJS LCOV reporter for Mocha",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "Mathieu Desvé <mathieu.desve@me.com>",
   "keywords": [
     "mocha",
@@ -13,10 +13,10 @@
   ],
   "dependencies": {
     "mocha": "~1.16.1",
-    "jade": "~0.35.0",
-    "chai": "~1.8.1"
+    "jade": "~0.35.0"
   },
   "devDependencies": {
+    "chai": "~1.8.1",
     "chai-fs": "0.0.3"
   },
   "directories": {
