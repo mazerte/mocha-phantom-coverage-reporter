@@ -3,6 +3,7 @@ mocha-phantom-lcov-reporter
 
 [![Build Status](https://travis-ci.org/mazerte/mocha-phantom-coverage-reporter.png?branch=master)](https://travis-ci.org/mazerte/mocha-phantom-coverage-reporter)
 [![Dependency Status](https://gemnasium.com/mazerte/mocha-phantom-coverage-reporter.png)](https://gemnasium.com/mazerte/mocha-phantom-coverage-reporter)
+[![Code Climate](https://codeclimate.com/github/mazerte/mocha-phantom-coverage-reporter.png)](https://codeclimate.com/github/mazerte/mocha-phantom-coverage-reporter)
 
 [![NPM](https://nodei.co/npm/mocha-phantom-coverage-reporter.png?downloads=true&stars=true)](https://nodei.co/npm/mocha-phantom-coverage-reporter/) 
 
