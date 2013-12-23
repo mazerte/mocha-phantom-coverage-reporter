@@ -55,7 +55,7 @@ if (ev == 'end' && window._$jscoverage) {
 
 sendMessage('mocha.' + ev, data);
 ```
-See this example in [generator-footguard](https://github.com/mazerte/generator-footguard/blob/master/app/templates/test/runner/bridge.js#L32)
+See this example in [generator-footguard bridge line 32](https://github.com/mazerte/generator-footguard/blob/master/app/templates/test/runner/bridge.js#L32)
 
 This exemple is issue to [generator-footguard](https://github.com/mazerte/generator-footguard) a project generator for [Yeoman](http://yeoman.io). You can see the result on [test-footguard](https://github.com/mazerte/test-footguard)
 
