@@ -41,6 +41,21 @@ grunt.initConfig
 					reporter: 'mocha-phantom-coverage-reporter'
 					timeout: 5000
 ```
+And you must change the Phantom Bridge for pass coverage var at end of test
+```js
+if (ev == 'end' && window._$jscoverage) {
+        var cov = {};
+        for(var prop in window._$jscoverage) {
+                var file = window._$jscoverage[prop];
+                file[0] = file.source;
+                cov[prop] = file;
+        }
+        data.cov = cov;
+}
+
+sendMessage('mocha.' + ev, data);
+```
+See this example in [generator-footguard](https://github.com/mazerte/generator-footguard/blob/master/app/templates/test/runner/bridge.js#L32)
 
 This exemple is issue to [generator-footguard](https://github.com/mazerte/generator-footguard) a project generator for [Yeoman](http://yeoman.io). You can see the result on [test-footguard](https://github.com/mazerte/test-footguard)
 
