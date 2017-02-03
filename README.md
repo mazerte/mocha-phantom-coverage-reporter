@@ -7,7 +7,7 @@ mocha-phantom-lcov-reporter
 
 [![NPM](https://nodei.co/npm/mocha-phantom-coverage-reporter.png?downloads=true&stars=true)](https://nodei.co/npm/mocha-phantom-coverage-reporter/) 
 
-PhantomJS LCOV reporter for [Mocha](http://visionmedia.github.io/mocha/).
+PhantomJS LCOV reporter for [Mocha](http://mochajs.org/).
 
 This reporter combine three Mocha reporter: [Spec](http://visionmedia.github.io/mocha/), [HTMLCov](http://visionmedia.github.io/mocha/) and [Mocha Lcov Reporter](https://github.com/StevenLooman/mocha-lcov-reporter). It work with NodeJS and in browser with PhantomJS.
 
@@ -62,7 +62,7 @@ This exemple is issue to [generator-footguard](https://github.com/mazerte/genera
 Report
 ------
 
-In your console you can see the spec reporter of [Mocha](http://visionmedia.github.io/mocha/) and two files are created in coverage directory: coverage.lcov and coverage.html.
+In your console you can see the spec reporter of [Mocha](http://mochajs.org/) and two files are created in coverage directory: coverage.lcov and coverage.html.
 
 The file "coverage.html", it's the result of Mocha HTMLCov reporter. It's very helpful for debug coverage in local.
 
